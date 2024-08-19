@@ -3,8 +3,21 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
+:root {
+  --background-color-light-theme: #FFF1F7;
+  --header-text-light-theme: #FFC2E6;
+  --text-color-light-theme:#353430;
+  --accent-color-light-theme: #FF8DCB;
+  --title-color-light-theme: #353430;
+  --title-weight: 700;
+} 
 .page.theme_light {
+  --background-color: var(--background-color-light-theme);
+  --header-text: var(--header-text-light-theme);
+  --text-color: var(--text-color-light-theme);
+  --accent-color: var(--accent-color-light-theme);
+  --title-color: var(--title-color-light-theme);
+  background-image: url('../images/cover-image-light.png');
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
