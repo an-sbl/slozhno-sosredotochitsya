@@ -286,10 +286,10 @@
 }
 
 .concentration-in-images { 
-  margin-top: clamp(10px, calc(100vw - 375px), 20px);
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-top: clamp(10px, calc(100vw - 375px), 20px);
 }
 
 @media(min-width: 768px) {
