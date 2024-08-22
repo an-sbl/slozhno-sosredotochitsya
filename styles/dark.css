@@ -10,6 +10,7 @@
   --accent-color-dark-theme: #ff0070;
   --title-color-dark-theme: #000028;
   --title-weight: 700;
+  --section-title-color-dark-theme:#FF0070;
 } 
 
 .page.theme_dark {
@@ -18,6 +19,7 @@
   --text-color: var(--text-color-dark-theme);
   --accent-color: var(--accent-color-dark-theme);
   --title-color: var(--title-color-dark-theme);
+  --section-title-color: var(--section-title-color-dark-theme);
   background-image: url('../images/cover-image-dark.png');
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
