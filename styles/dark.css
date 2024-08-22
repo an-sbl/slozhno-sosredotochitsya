@@ -14,6 +14,7 @@
 } 
 
 .page.theme_dark {
+  color-scheme: dark;
   --background-color: var(--background-color-dark-theme);
   --header-text: var(--header-text-dark-theme);
   --text-color: var(--text-color-dark-theme);
@@ -25,4 +26,16 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --background-color: var(--background-color-dark-theme);
+    --header-text: var(--header-text-dark-theme);
+    --text-color: var(--text-color-dark-theme);
+    --accent-color: var(--accent-color-dark-theme);
+    --title-color: var(--title-color-dark-theme);
+    --section-title-color: var(--section-title-color-dark-theme);
+    background-image: url('../images/cover-image-dark.png');
+  }
 }

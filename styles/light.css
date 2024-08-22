@@ -25,3 +25,18 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
+@media (prefers-color-scheme: light) {
+  body {
+    --background-color: var(--background-color-light-theme);
+    --header-text: var(--header-text-light-theme);
+    --text-color: var(--text-color-light-theme);
+    --accent-color: var(--accent-color-light-theme);
+    --title-color: var(--title-color-light-theme);
+    --section-title-color: var(--section-title-color-light-theme);
+    background-image: url('../images/cover-image-light.png');
+  }
+  .req-decoration .theme_light {
+    display: none;
+  }
+}

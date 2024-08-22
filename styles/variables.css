@@ -4,9 +4,9 @@
 */
 
 :root {
-  --background-color: var(--background-color-dark-theme);
-  --text-colore: var(--title-color-dark-theme);
-  --accent-color: var(--accent-color-dark-theme);
-  --title-color: var(--title-color-dark-theme);
+  --background-color: var(--background-color-light-theme);
+  --text-colore: var(--title-color-light-theme);
+  --accent-color: var(--accent-color-light-theme);
+  --title-color: var(--title-color-light-theme);
   --title-weight: 700;
 } 
