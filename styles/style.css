@@ -285,7 +285,7 @@
   }
 }
 
-.concentration-in-images { 
+.concentration-in-images {
   display: flex;
   flex-direction: column;
   gap: 10px;
