@@ -19,7 +19,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 10px;
+  padding: clamp(10px, calc(100vw - 375px), 20px);
   font-size: 18px;
   line-height: 23.4px;
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
@@ -34,8 +34,8 @@
   font-weight: 400;
   line-height: 25px;
   color: var(--accent-color);
-  top: clamp(10px, calc((100vw - 375px) * 1000), 20px);
-  right: clamp(19px, calc((100vw - 375px) * 1000), 29px);
+  top: clamp(10px, calc(100vw - 375px), 20px);
+  right: clamp(19px, calc(100vw - 375px), 29px);
 }
 
 .req-decoration::after{
@@ -54,9 +54,8 @@
   grid-template-rows: 1fr max-content 1fr;
   justify-items: end;
   width: 100%;
-  height: calc(100vh - 2 * clamp(10px, calc((100vw - 375px) * 1000), 20px));
+  height: calc(100vh - 2 * clamp(10px, calc(100vw - 375px), 20px));
 }
-
 
 
 .theme_light .req-decoration {
@@ -74,6 +73,7 @@
 }
 
 .header__theme-menu-button{
+  width: 100%;
   background-color: transparent;
   color: var(--section-title-color);
   padding: 1.5px 13px;
@@ -83,6 +83,20 @@
   line-height: 18px;
   border: none;
 
+  
+  &:hover {
+    border: 1px solid currentColor;
+    opacity: 40%;
+  }
+
+  &:focus {
+    border-bottom: 1px solid currentColor;
+  }
+
+  &:focus-visible {
+    outline: none;
+    border-bottom: 1px solid currentColor;
+  }
 }
 
 .header__theme-menu-button_active{
@@ -109,9 +123,6 @@
 }
 
 @media(min-width:768px){
-  .page {
-    padding: 20px;
-  }
   .header__theme-menu{
     margin: 172px 0 172px;
   }
@@ -143,8 +154,8 @@
 .header::before{
   content:'';
   position: absolute;
-  bottom: clamp(10px, calc((100vw - 375px) * 1000), 20px);
-  left: clamp(10px, calc((100vw - 375px) * 1000), 20px);
+  bottom: clamp(10px, calc(100vw - 375px), 20px);
+  left: clamp(10px, calc(100vw - 375px), 20px);
   border-block-end: 1px solid var(--section-title-color);
   border-inline-start: 1px solid var(--section-title-color);
   block-size: 25px;
@@ -154,8 +165,8 @@
 .header::after{
   content: '';
   position: absolute;
-  top: clamp(10px, calc((100vw - 375px) * 1000), 20px);
-  right: clamp(10px, calc((100vw - 375px) * 1000), 20px);
+  top: clamp(10px, calc(100vw - 375px), 20px);
+  right: clamp(10px, calc(100vw - 375px), 20px);
   border-block-start: 1px solid var(--section-title-color);
   border-inline-end: 1px solid var(--section-title-color);
   block-size: 25px;
@@ -257,7 +268,25 @@
 
 .paragraph__text{
  font-size: 18px;
+ line-height: 23.4px;
+}
 
+.paragraph__text-link{
+  text-shadow: 2px 2px 0 var(--accent-color);
+  text-decoration: none;
+  &:hover {
+    border-bottom: 1px solid currentColor;
+  }
+
+  &:focus {
+   outline: none;
+   border: 1px solid currentColor;
+  }
+
+  &:focus-visible {
+    outline: none;
+    border: 1px solid currentColor;
+  }
 }
 
 .concentration-in-images{
@@ -304,7 +333,7 @@
 }
 
 .footer{
-  height: calc(100vh - 20px);
+  height: calc(100vh - calc(2 * clamp(10px, calc((100vw - 375px) * 1000), 20px)));
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -324,7 +353,7 @@
   .footer__title{
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
-
+}
 .footer::after{
   content:'';
   display: block;
