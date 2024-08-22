@@ -59,6 +59,12 @@
   display: none;
 }
 
+@media (prefers-color-scheme: light) {
+  .theme_auto .req-decoration {
+    display: none;
+  }
+}
+
 .header__theme-menu {
   margin: 75px 0 60px;
 }
