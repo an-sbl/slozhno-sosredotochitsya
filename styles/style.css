@@ -6,6 +6,7 @@
   --accent-color: var(--accent-color-light-theme);
   --title-color: var(--title-color-light-theme);
   --section-title-color: var(--section-title-color-light-theme);
+  --hover-button-color: var(--hover-button-color-ligth-theme);
 }
 
 .page {
@@ -82,10 +83,8 @@
   line-height: 18px;
   background-color: transparent;
 
-  
   &:hover {
-    border: 1px solid currentColor;
-    opacity: 40%;
+    border: 1px solid var(--hover-button-color);
   }
 
   &:focus {

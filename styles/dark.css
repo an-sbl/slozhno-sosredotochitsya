@@ -5,6 +5,7 @@
   --accent-color-dark-theme: #ff0070;
   --title-color-dark-theme: #000028;
   --title-weight: 700;
+  --hover-button-color-dark-theme: rgba(255, 0, 112, 0.4);
   --section-title-color-dark-theme:#FF0070;
 }
 
@@ -16,6 +17,7 @@
   --accent-color: var(--accent-color-dark-theme);
   --title-color: var(--title-color-dark-theme);
   --section-title-color: var(--section-title-color-dark-theme);
+  --hover-button-color: var(--hover-button-color-dark-theme);
   background-image: url('../images/cover-image-dark.png');
 }
 
@@ -27,6 +29,7 @@
     --accent-color: var(--accent-color-dark-theme);
     --title-color: var(--title-color-dark-theme);
     --section-title-color: var(--section-title-color-dark-theme);
+    --hover-button-color: var(--hover-button-color-dark-theme);
     background-image: url('../images/cover-image-dark.png');
   }
 }

@@ -5,6 +5,7 @@
   --accent-color-light-theme: #FF8DCB;
   --title-color-light-theme: #353430;
   --section-title-color-light-theme:#353430;
+  --hover-button-color-ligth-theme: rgba(50, 49, 45, 0.4);
   --title-weight: 700;
 } 
 .page.theme_light {
@@ -14,6 +15,7 @@
   --accent-color: var(--accent-color-light-theme);
   --title-color: var(--title-color-light-theme);
   --section-title-color: var(--section-title-color-light-theme);
+  --hover-button-color: var(--hover-button-color-ligth-theme);
   background-image: url('../images/cover-image-light.png');
 }
 
@@ -25,6 +27,7 @@
     --accent-color: var(--accent-color-light-theme);
     --title-color: var(--title-color-light-theme);
     --section-title-color: var(--section-title-color-light-theme);
+    --hover-button-color: var(--hover-button-color-ligth-theme);
     background-image: url('../images/cover-image-light.png');
   }
 }
