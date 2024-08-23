@@ -10,6 +10,7 @@
 }
 
 .page.theme_light {
+    color-scheme: light;
   --background-color: var(--background-color-light-theme);
   --header-text: var(--header-text-light-theme);
   --text-color: var(--text-color-light-theme);
