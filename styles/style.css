@@ -1,14 +1,4 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. 
-:root {
-  --background-color: var(--background-color-light-theme);
-  --header-text: var(--header-text-light-theme);
-  --text-color: var(--text-color-light-theme);
-  --accent-color: var(--accent-color-light-theme);
-  --title-color: var(--title-color-light-theme);
-  --section-title-color: var(--section-title-color-light-theme);
-  --hover-button-color: var(--hover-button-color-ligth-theme);
-}
-*/
+/* Основные стили проекта. Это стили для темы, которую вы верстаете первой.*/
 .page {
   padding: 0 clamp(10px, calc(100vw - 375px), 20px);
   color: var(--text-color);
