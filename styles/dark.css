@@ -40,4 +40,7 @@
   .req-decoration {
       display: flex;
   }
+  .theme_light .req-decoration {
+         display: none;
+   }
 }
