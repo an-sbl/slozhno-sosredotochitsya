@@ -1,25 +1,14 @@
-:root {
+:root .theme_light{
     color-scheme: light;
-  --background-color-light-theme: #FFF1F7;
-  --header-text-light-theme: #FFC2E6;
-  --text-color-light-theme:#353430;
-  --accent-color-light-theme: #FF8DCB;
-  --title-color-light-theme: #353430;
-  --section-title-color-light-theme:#353430;
-  --hover-button-color-ligth-theme: rgba(50, 49, 45, 0.4);
-  --title-weight: 700;
-}
-
-.page.theme_light {
-    color-scheme: light;
-  --background-color: var(--background-color-light-theme);
-  --header-text: var(--header-text-light-theme);
-  --text-color: var(--text-color-light-theme);
-  --accent-color: var(--accent-color-light-theme);
-  --title-color: var(--title-color-light-theme);
-  --section-title-color: var(--section-title-color-light-theme);
-  --hover-button-color: var(--hover-button-color-ligth-theme);
-  background-image: url('../images/cover-image-light.png');
+    --background-color: var(--background-color-light-theme);
+    --header-text: var(--header-text-light-theme);
+    --text-color: var(--text-color-light-theme);
+    --accent-color: var(--accent-color-light-theme);
+    --title-color: var(--title-color-light-theme);
+    --section-title-color: var(--section-title-color-light-theme);
+    --hover-button-color: var(--hover-button-color-ligth-theme);
+    background-image: url('../images/cover-image-light.png');
+  
 }
 .theme_light .req-decoration {
   display: none;

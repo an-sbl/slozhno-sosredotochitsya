@@ -1,16 +1,4 @@
-:root {
-  color-scheme: dark;
-  --background-color-dark-theme: #000028;
-  --header-text-dark-theme: #DB00FF;
-  --text-color-dark-theme:#F1B2CE;
-  --accent-color-dark-theme: #ff0070;
-  --title-color-dark-theme: #000028;
-  --title-weight: 700;
-  --hover-button-color-dark-theme: rgba(255, 0, 112, 0.4);
-  --section-title-color-dark-theme:#FF0070;
-}
-
-.page.theme_dark {
+:root .theme_dark{
   color-scheme: dark;
   --background-color: var(--background-color-dark-theme);
   --header-text: var(--header-text-dark-theme);
@@ -23,28 +11,9 @@
 }
 
 .theme_dark .req-decoration {
-  position: absolute;
-  top: clamp(10px, calc(100vw - 375px), 20px);
-  right: clamp(19px, calc(100vw - 375px), 29px);
   display: flex;
-  align-items: center;
-  gap:10px;
-  color: var(--accent-color);
-  font-weight: 400;
-  line-height: 25px;
-  text-transform: uppercase;
 }
 
-.req-decoration::after {
-  content: "";
-  display:inline-block;
-  border-radius: 50%;
-  box-shadow: 0px 0px 4px 2px #FF0070;
-  text-align: center;
-  background-color: var(--accent-color);
-  block-size: 9px;
-  inline-size: 9px;
- }
 
 @media (prefers-color-scheme: dark) {
   .page {
@@ -58,15 +27,6 @@
     background-image: url('../images/cover-image-dark.png');
   }
   .req-decoration {
-    position: absolute;
-    top: clamp(10px, calc(100vw - 375px), 20px);
-    right: clamp(19px, calc(100vw - 375px), 29px);
     display: flex;
-    align-items: center;
-    gap:10px;
-    color: var(--accent-color);
-    font-weight: 400;
-    line-height: 25px;
-    text-transform: uppercase;
   }
 }

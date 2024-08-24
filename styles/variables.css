@@ -4,9 +4,22 @@
 */
 
 :root {
-  --background-color: var(--background-color-light-theme);
-  --text-colore: var(--title-color-light-theme);
-  --accent-color: var(--accent-color-light-theme);
-  --title-color: var(--title-color-light-theme);
+
   --title-weight: 700;
+  --background-color-light-theme: #FFF1F7;
+  --header-text-light-theme: #FFC2E6;
+  --text-color-light-theme:#353430;
+  --accent-color-light-theme: #FF8DCB;
+  --title-color-light-theme: #353430;
+  --section-title-color-light-theme:#353430;
+  --hover-button-color-ligth-theme: rgba(50, 49, 45, 0.4);
+
+  --background-color-dark-theme: #000028;
+  --header-text-dark-theme: #DB00FF;
+  --text-color-dark-theme:#F1B2CE;
+  --accent-color-dark-theme: #ff0070;
+  --title-color-dark-theme: #000028;
+  --hover-button-color-dark-theme: rgba(255, 0, 112, 0.4);
+  --section-title-color-dark-theme:#FF0070;
+  
 } 
