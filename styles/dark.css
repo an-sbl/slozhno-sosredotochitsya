@@ -57,4 +57,16 @@
     --hover-button-color: var(--hover-button-color-dark-theme);
     background-image: url('../images/cover-image-dark.png');
   }
+  .req-decoration {
+    position: absolute;
+    top: clamp(10px, calc(100vw - 375px), 20px);
+    right: clamp(19px, calc(100vw - 375px), 29px);
+    display: flex;
+    align-items: center;
+    gap:10px;
+    color: var(--accent-color);
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+  }
 }

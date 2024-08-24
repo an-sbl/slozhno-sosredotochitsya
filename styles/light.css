@@ -21,6 +21,9 @@
   --hover-button-color: var(--hover-button-color-ligth-theme);
   background-image: url('../images/cover-image-light.png');
 }
+.theme_light .req-decoration {
+  display: none;
+}
 
 @media (prefers-color-scheme: light) {
   .page {
