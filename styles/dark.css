@@ -1,4 +1,4 @@
-:root .theme_dark{
+:root .theme_dark {
   color-scheme: dark;
   --background-color: var(--background-color-dark-theme);
   --header-text: var(--header-text-dark-theme);

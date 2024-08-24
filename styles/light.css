@@ -1,4 +1,4 @@
-:root .theme_light{
+:root .theme_light {
     color-scheme: light;
     --background-color: var(--background-color-light-theme);
     --header-text: var(--header-text-light-theme);
