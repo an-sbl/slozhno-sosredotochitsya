@@ -33,7 +33,7 @@
 }
 
 .decorated-zone::after,
-::before {
+.decorated-zone::before {
   content: "";
   position: absolute;
   block-size: 25px;
@@ -201,12 +201,6 @@
   gap: 20px;
 }
 
-.paragraph-list__title {
-  color: var(--title-color);
-  font-weight: 700;
-  font-size: 18px;
-  background-color: var(--accent-color);
-}
 
 .paragraph__text {
   margin-block-start: 10px;
